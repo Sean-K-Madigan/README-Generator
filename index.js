@@ -90,6 +90,12 @@ const questions = [
   },
   {
     type: 'input',
+    name: 'email',
+    message: 'What is your email?',
+    validate: (value) => {if (value){return true} else {return 'Please answer to continue.'}},
+  },
+  {
+    type: 'input',
     name: 'contribute',
     message: 'Is there anything specific other devs need to do to contribute? (If yes, write here, if no leave blank)',
   },
