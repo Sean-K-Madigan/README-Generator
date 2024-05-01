@@ -19,39 +19,39 @@ function renderLicenseBadge(license) {
       break;
 
     case 'MIT':
-        badge = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]`;
+        badge = `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`;
         break;
 
     case 'Apache':
-      badge = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]`;
+      badge = `![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)`;
       break;
 
     case 'BSD 3':
-      badge = `[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)]`;
+      badge = `![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)`;
       break;
 
     case 'BSD 2':
-      badge = `[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)]`;
+      badge = `![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)`;
       break;
 
     case 'ISC':
-      badge = `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]`;
+      badge = `![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)`;
       break;
 
     case 'The Unlicense':
-      badge = `[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)]`;
+      badge = `![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)`;
       break;
 
     case 'Zlib/libpng':
-        badge = `[![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)]`;
+        badge = `![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)`;
         break;
 
     case 'SIL Open Font':
-      badge = `[![License: Open Font-1.1](https://img.shields.io/badge/License-OFL_1.1-lightgreen.svg)]`;
+      badge = `![License: Open Font-1.1](https://img.shields.io/badge/License-OFL_1.1-lightgreen.svg)`;
       break;
 
     case 'Do What The F*ck You Want To Public License':
-      badge = `[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)]`;
+      badge = `![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)`;
       break;
 
     default:
@@ -237,9 +237,7 @@ function generateMarkdown(data) {
 
   ## Qestions
 
-  Direct any and all questions to ${data.git} on GitHub or to the author via email at ${data.email}.
-`;
+  Direct any and all questions to [!${data.git}](${data.gitLink}) on GitHub or to the author via email at ${data.email}.`;
 }
-// Make gitHub a link
 
 module.exports = generateMarkdown;

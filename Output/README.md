@@ -1,10 +1,10 @@
 
-  # t
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+  # a
+  There is no license associated with this project.
 
   ## Project Description
   
-  d
+  a
   
   ## Table of Contents
 
@@ -21,36 +21,36 @@
 
   ## User Story
 
-  AS A d,
-  I WANT m,
-  SO THAT I e.
+  AS A a,
+  I WANT a,
+  SO THAT I a.
 
 
   ## Deployed Link
 
-  h
+  a
 
   ## Installation
 
-  t
+  a
 
   ## Usage
 
-  d
+  a
 
   ## Application Screenshot
 
-  ![Application Screenshot](s)
+  ![Application Screenshot](a)
 
   ## Credits
 
-  s
+  a
 
   ## License
 
-  MIT: (https://opensource.org/licenses/MIT)
+  N/A: There is no license associated with this project.
 
-  This application is covered under the MIT License. Please see the above link for all pertinent information pertaining to use of this code under the associated license
+  There is no license associated with this project.
 
   ## Features
 
@@ -60,12 +60,12 @@
 
   Please observe respectful and contientious contributions by discussing any and all changes with the primary author. Upon receipt of approval remeber to use appropriate braching techiques and labelling so as to not compromise the integrity of the program. Always debug before pushing. 
   
-  d
+  a
 
   ## Tests
 
-  f
+  a
 
   ## Qestions
 
-  Direct any and all questions to s on GitHub.
+  Direct any and all questions to [!a](a) on GitHub or to the author via email at a.

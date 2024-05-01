@@ -90,6 +90,12 @@ const questions = [
   },
   {
     type: 'input',
+    name: 'gitLink',
+    message: 'Paste your GitHub account link here: ',
+    validate: (value) => {if (value){return true} else {return 'Please answer to continue.'}},
+  },
+  {
+    type: 'input',
     name: 'email',
     message: 'What is your email?',
     validate: (value) => {if (value){return true} else {return 'Please answer to continue.'}},
