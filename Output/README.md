@@ -40,7 +40,7 @@
 
   ## Application Screenshot
 
-  ![Application Screenshot](N/A)
+  ![Application Walkthrough](../images/WalkThroughVideo.webm)
 
   ## Credits
 
@@ -49,8 +49,6 @@
   ## License
 
   N/A: There is no license associated with this project.
-
-  
 
   ## Features
 
