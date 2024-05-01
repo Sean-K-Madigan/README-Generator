@@ -15,7 +15,7 @@
 function renderLicenseBadge(license) {
   switch (license) {
     case 'N/A':
-      badge = `There is no license associated with this project.`;
+      badge = ``;
       break;
 
     case 'MIT':
@@ -119,7 +119,7 @@ function renderLicenseSection(license) {
 
   switch (license) {
     case 'N/A':
-      badgeInfo = `There is no license associated with this project.`;
+      badgeInfo = ``;
       break;
 
     case 'MIT':
@@ -235,7 +235,7 @@ function generateMarkdown(data) {
 
   ${data.tests}
 
-  ## Qestions
+  ## Questions
 
   Direct any and all questions to [!${data.git}](${data.gitLink}) on GitHub or to the author via email at ${data.email}.`;
 }
