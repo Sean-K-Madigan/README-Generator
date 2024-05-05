@@ -1,10 +1,10 @@
 
-  # README Generator
+  # SVG Logo Generator
   
 
   ## Project Description
   
-  The goal of this project is to create a javascript program that can be run locally via node.js. This program will prompt the user for information and use that information to create a professional README.md file. This program allows the developer to spend significanly less time formatting and writing their README file. The development of this program allowed me to learn how to use JavaScript locally with the Node.js program to prompt the user for command line input and write files directly from the command line information.
+  The goal of this project is to create a back-end program that allows the user to quickly create logos for various applications. The logo will be a 300px x 200px svg file that contains up to 3 letters in the color of the users choice and their choice from a list of shapes. This solves the problem of freelance developers having to pay graphic designers to generate simple logos. I learned how to implement testing and deepened my understanding of Inquirer.
   
   ## Table of Contents
 
@@ -21,26 +21,26 @@
 
   ## User Story
 
-  AS A web application developer,
-  I WANT a program that allows me to streamline the process of writing a professional README.md file,
-  SO THAT I can more efficiently use my time to code important functional elements of my programs and have a consistent and professional README.md structure.
+  AS A freelance web developer,
+  I WANT to generate a simple logo for my projects,
+  SO THAT I don't have to pay a graphic designer.
 
 
   ## Deployed Link
 
-  N/A
+  Add link here
 
   ## Installation
 
-  Simply clone the program or copy the code from my repository on GitHub to your local machine and provided you have node installed you will be able to run the program to generate professional README files.
+  Clone the repository from GitHub and run locally with node.
 
   ## Usage
 
-  It should be used to create README files for all of your projects so that fellow developers can see important details about your work and you can have a more structured and consitent README history.
+  It should be used to create simple logos for applicaitons.
 
   ## Application Screenshot
 
-  ![Application Walkthrough](../images/WalkThroughVideo.webm)
+  ![Application Screenshot](./images/Walkthrough)
 
   ## Credits
 
@@ -50,9 +50,11 @@
 
   N/A: There is no license associated with this project.
 
+  
+
   ## Features
 
-  This application features command line prompting that allows for user input. It will then generate a README.md file to be used with whatever application is in development.
+  My application features the ability to create svg file logos directly from your command line.
 
   ## Contributing
 
@@ -62,7 +64,7 @@
 
   ## Tests
 
-  N/A
+  You can test this application using jest.
 
   ## Questions
 

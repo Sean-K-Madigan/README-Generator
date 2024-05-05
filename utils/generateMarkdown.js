@@ -237,7 +237,7 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  Direct any and all questions to [!${data.git}](${data.gitLink}) on GitHub or to the author via email at ${data.email}.`;
+  Direct any and all questions to ![${data.git}](${data.gitLink}) on GitHub or to the author via email at ${data.email}.`;
 }
 
 module.exports = generateMarkdown;
