@@ -1,10 +1,10 @@
 
-  # SVG Logo Generator
-  
+  # TextEditorPWA
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Project Description
   
-  The goal of this project is to create a back-end program that allows the user to quickly create logos for various applications. The logo will be a 300px x 200px svg file that contains up to 3 letters in the color of the users choice and their choice from a list of shapes. This solves the problem of freelance developers having to pay graphic designers to generate simple logos. I learned how to implement testing and deepened my understanding of Inquirer.
+  The goal of this application was to deepen our understanding of PWAs and finish building a text editor.
   
   ## Table of Contents
 
@@ -21,40 +21,40 @@
 
   ## User Story
 
-  AS A freelance web developer,
-  I WANT to generate a simple logo for my projects,
-  SO THAT I don't have to pay a graphic designer.
+  AS A a developer,
+  I WANT to create notes or code snippets with or without an internet connection,
+  SO THAT I can reliably retrieve them for later use.
 
 
   ## Deployed Link
 
-  Add link here
+  https://texteditorpwa-60o4.onrender.com
 
   ## Installation
 
-  Clone the repository from GitHub and run locally with node.
+  Open application and click install in the top left corner
 
   ## Usage
 
-  It should be used to create simple logos for applicaitons.
+  It should be used to take notes and write code snippets on or offline.
 
   ## Application Screenshot
 
-  ![Application Screenshot](./images/Walkthrough)
+  ![Application Screenshot](na)
 
   ## Credits
 
-  Sean Madigan
+  Sean Madigan, Aaron Binghurst, edX Develop Code
 
   ## License
 
-  N/A: There is no license associated with this project.
+  MIT: (https://opensource.org/licenses/MIT)
 
-  
+  This application is covered under the MIT License. Please see the above link for all pertinent information pertaining to use of this code under the associated license.
 
   ## Features
 
-  My application features the ability to create svg file logos directly from your command line.
+  PWA, node, service workers, webpack
 
   ## Contributing
 
@@ -64,8 +64,8 @@
 
   ## Tests
 
-  You can test this application using jest.
+  N/A
 
   ## Questions
 
-  Direct any and all questions to [!Sean-K-Madigan](https://github.com/Sean-K-Madigan) on GitHub or to the author via email at sean.k.a.madigan@gmail.com.
+  Direct any and all questions to ![Sean-K-Madigan](https://github.com/Sean-K-Madigan/TextEditorPWA) on GitHub or to the author via email at sean.k.a.madigan@gmail.com.
